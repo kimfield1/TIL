@@ -1,0 +1,141 @@
+/* 네비게이션 바 레이아웃 */
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__container-right {
+  display: flex;
+}
+
+/* color */
+
+.color {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-green {
+  display: inline-block;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-green);
+}
+
+.color-lightgreen {
+  display: inline-block;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-lightgreen);
+}
+
+.color-gray-1 {
+  display: inline-block;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-gray-1);
+}
+
+.color-gray-2 {
+  display: inline-block;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-gray-2);
+}
+
+.color-gray-3 {
+  display: inline-block;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-gray-3);
+}
+
+.color-gray-4 {
+  display: inline-block;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-gray-4);
+}
+
+.color-gray-5 {
+  display: inline-block;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-gray-5);
+}
+
+.color-gray-6 {
+  display: inline-block;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-gray-6);
+}
+
+.color-black {
+  display: inline-block;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-black);
+}
+
+.color-white {
+  display: inline-block;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  color: var(--color-white);
+}
+
+/* font-size */
+.font-xlarge {
+  font-size: var(--font-xlarge);
+}
+
+.font-large {
+  font-size: var(--font-large);
+}
+
+.font-medium {
+  font-size: var(--font-medium);
+}
+.font-regular {
+  font-size: var(--font-regular);
+}
+
+.font-small {
+  font-size: var(--font-small);
+}
+
+.font-micro {
+  font-size: var(--font-micro);
+}
+
+/* font size, weight 비교를 위한 수평 배치 */
+.font-size {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.font-weight {
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: var(--weight-bold);
+}
+
+/* border-radius */
+.border-soft {
+  border-radius: var(--border-radius-soft);
+}
+
+.border-hard {
+  border-radius: var(--border-radius-hard);
+}
