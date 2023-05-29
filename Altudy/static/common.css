@@ -10,23 +10,28 @@
   --color-gray-4: #8c959f;
   --color-gray-5: #6e7781;
   --color-gray-6: #57606a;
+  --color-gray-7: #24292F;
 
-  /* font */
+  /* font-family */
+  --font-family: 'Nanum Gothic', sans-serif;
+  --font-family: 'Noto Sans KR', sans-serif;
+
+  /* font-size */
   --font-xlarge: 3rem;     
   --font-large: 2.5rem;
   --font-medium: 1.75rem; 
   --font-regular: 1.125rem; 
   --font-small: 1rem;    
-  --font-micro: 0.875rem; 
-
+  --font-micro: 0.875rem;
+  
   /* Font weight */
   --weight-bold: 700;
   --weight-semi-bold: 600;
   --weight-regular: 400;
 
   /* Size */
-  --border-radius-soft: 10px;
-  --border-radius-hard: 20px;
+  --border-radius-soft: 8px;
+  --border-radius-hard: 10px;
 
   /* Animation */
   --animation-duration: 300ms;

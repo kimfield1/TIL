@@ -1,0 +1,86 @@
+body
+
+main {
+  width: 100vw;
+  padding-bottom: 48px;
+}
+
+.main__banner {
+  width: 100vw;
+  height: 200px;
+  background-color: var(--color-green);
+}
+
+.main__content1 {
+  padding: 40px 40px 20px 40px;
+}
+
+.main__content1-title {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+}
+
+.main__content1-card {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  margin-top: 30px;
+  color: var(--color-gray-5);
+  background-color: var(--color-gray-2);
+  border-radius: var(--border-radius-soft);
+}
+
+.main__content1-cardtile {
+  padding: 10px;
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+}
+
+.main__content1-cardbutton {
+  position: absolute;
+  top: 40%;
+  right: 4%;
+  padding: 5px;
+  border: none;
+  border-radius: var(--border-radius-hard);
+  color: var(--color-gray-2);
+  background-color: var(--color-gray-5);
+  font-weight: var(--weight-bold);
+}
+
+.main__content2 {
+  padding: 20px 40px;
+}
+
+.main__content2-title {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+}
+
+.main__content2-card {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin-top: 30px;
+  color: var(--color-gray-5);
+  background-color: var(--color-gray-2);
+  border-radius: var(--border-radius-soft);
+}
+
+.main__content2-cardtile {
+  padding: 10px;
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+}
+
+.main__content2-cardbutton {
+  position: absolute;
+  top: 64%;
+  right: 4%;
+  padding: 5px;
+  border: none;
+  border-radius: var(--border-radius-hard);
+  color: var(--color-gray-2);
+  background-color: var(--color-gray-5);
+  font-weight: var(--weight-bold);
+}
